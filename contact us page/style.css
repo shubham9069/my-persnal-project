@@ -15,7 +15,8 @@ top{
 }
 .heading h1{
     font-size:5vw;
-    color: #d9bd23;
+    color: #189AB4;
+    font-weight:100;
 
 }
 .heading p{
@@ -59,14 +60,15 @@ top{
 .card-title
 {
     font-size:1.5vw;
+    font-weight: 100;
 }
 
 .btn{
     font-size:1vw !important;
-    background-color: white!important;
-    border-color: black !important;
-    color: black !important;
-    font-weight: 500!important;
+    background-color:#189AB4!important;
+    border-color: #189AB4!important;
+    
+    font-weight: 400!important;
    
    
 }
@@ -92,7 +94,8 @@ top{
     font-size: 2vw;
     text-align: center;
     margin: 2vw 0px;
-    color: #d9bd23;
+    color: #189AB4;
+    font-weight: 100;
 }
 
 .form-group{
@@ -115,6 +118,9 @@ top{
 .btn-submit{
     display: block!important;
     margin: 0px auto;
+    color: #fff!important;
+    
+    
 }
 
 
