@@ -107,7 +107,10 @@ top{
     width: 18vw !important;
     height: 1.7vw!important;
     color: black !important;
+    font-size: 0.8vw!important;
+    border-color: black!important;
 }
+
 
 .btn-submit{
     display: block!important;
