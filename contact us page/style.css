@@ -106,6 +106,7 @@ top{
 .form-control{
     width: 18vw !important;
     height: 1.7vw!important;
+    color: black !important;
 }
 
 .btn-submit{
