@@ -22,10 +22,10 @@ body {
 
 #text {
     display: inline-block;
-    font-size: 1vw;
+    font-size: 2vw;
     position: relative;
-    top: 3em;
-    left: 22em;
+    top: 1em;
+    left: 10em;
 
 }
 
@@ -35,39 +35,66 @@ body {
 }
 
 #text h1 {
-    font-size: 2vw;
+    font-size: 4vw;
     font-weight: 400;
     margin: 0px;
     margin-bottom: 0.3em;
 }
-.left{
-    
+
+.left {
     width: 30%;
-    height:400px;
+    
     background-color: pink;
 }
-.right{
-    
-    background-color:blue;
-    width:69%;
+
+.right {
+
+    flex-grow: 1;
+    flex-basis: auto;
 }
-#course{
+
+#course {
     display: grid;
-    grid-template-columns: repeat(3,18vw);
+    grid-template-columns: repeat(3, 18vw);
     justify-content: space-evenly;
-    
+
 
 }
-.card{
-    margin-top: 2em;
+
+.card {
+     margin-top: 2em;
     background-color: #333333;
     align-items: center;
     
+    
+    transform:
+    rotateX(45deg)
+    rotateZ(37deg);
+  transform-style: preserve-3d;
+  border-radius: 20px;
+  box-shadow:
+    1px 1px 0 1px #333333,
+    -1px 0 20px 0 #333333,
+    20px 20px 20px 0 #333333;
+  transition:
+    .4s ease-in-out transform,
+    .4s ease-in-out box-shadow
+    
+
+}.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
-.card-img-top{
+.card-body {
+    font-size:1vw !important;
+    font-weight: 100;
+}
+
+.card-img-top {
     height: 5vw;
-    width:5vw
+    width: 5vw
 }
-.mid{
+
+.mid {
     display: flex;
 }
