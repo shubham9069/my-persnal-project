@@ -6,6 +6,7 @@ body {
 .top {
     width: 100%;
     height: 23vw;
+    
 }
 
 .top::before {
@@ -17,6 +18,20 @@ body {
     position: absolute;
     background-position: center;
     background-size: cover;
+}
+
+.line {
+    display: block;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    font-size: 1vw;
+}
+
+.line h {
+    font-weight: 300 !important;
+    font-size: 4vw;
+    color:#189AB4;
 }
 
 
@@ -42,9 +57,11 @@ body {
 }
 
 .left {
-    width: 30%;
-    
-    background-color: pink;
+    width: 20%;
+    background-color: #333333;
+    border-radius: 1em;
+    margin-left: 1.5em;
+
 }
 
 .right {
@@ -62,31 +79,23 @@ body {
 }
 
 .card {
-     margin-top: 2em;
+    margin-bottom: 2em;
     background-color: #333333;
     align-items: center;
-    
-    
-    transform:
-    rotateX(45deg)
-    rotateZ(37deg);
-  transform-style: preserve-3d;
-  border-radius: 20px;
-  box-shadow:
-    1px 1px 0 1px #333333,
-    -1px 0 20px 0 #333333,
-    20px 20px 20px 0 #333333;
-  transition:
-    .4s ease-in-out transform,
-    .4s ease-in-out box-shadow
-    
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
 
-}.card:hover{
+
+
+}
+
+.card:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
+
 .card-body {
-    font-size:1vw !important;
+    font-size: 1vw !important;
     font-weight: 100;
 }
 
@@ -98,3 +107,22 @@ body {
 .mid {
     display: flex;
 }
+.category {
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 3em;;
+}
+.category p{
+    font-size: 1.3vw;
+    font-weight: 100;
+    color:#189AB4;
+    margin-bottom: 0.5em;
+}
+.angker{
+    text-decoration: none;
+    color: white!important;
+}
+
