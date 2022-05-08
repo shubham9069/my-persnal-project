@@ -73,16 +73,17 @@ body {
 #course {
     display: grid;
     grid-template-columns: repeat(3, 18vw);
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2em
 
 
 }
 
 .card {
-    margin-bottom: 2em;
+    
     background-color: #333333;
     align-items: center;
-    border-radius: 20px;
+    border: 3px solid white;
     transition: all 0.3s ease-in-out;
 
 
