@@ -126,4 +126,7 @@ body {
     text-decoration: none;
     color: white!important;
 }
+.card-body h6{
+    font-size: 1vw;
+}
 
